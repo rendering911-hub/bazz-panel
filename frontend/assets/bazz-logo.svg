@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" fill="none">
+  <defs>
+    <linearGradient id="gold" x1="38" y1="27" x2="218" y2="226" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF0B0"/>
+      <stop offset=".28" stop-color="#D49B35"/>
+      <stop offset=".55" stop-color="#FFE394"/>
+      <stop offset="1" stop-color="#A96A17"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="66" y1="68" x2="185" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFF7D9"/>
+      <stop offset="1" stop-color="#D7A847"/>
+    </linearGradient>
+  </defs>
+  <circle cx="128" cy="128" r="119" fill="#080808" stroke="url(#gold)" stroke-width="3"/>
+  <circle cx="128" cy="128" r="108" stroke="#D5A64A" stroke-opacity=".28"/>
+  <path d="m84 79-13-25 24 13 18-31 17 31 24-14-10 28" stroke="url(#gold)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M84 91h89c27 0 42 15 42 37 0 17-9 29-25 35 21 5 33 19 33 39 0 25-19 41-49 41H84V91Zm36 31v31h42c11 0 17-5 17-15 0-11-7-16-19-16h-40Zm0 61v29h51c12 0 19-5 19-15 0-9-7-14-19-14h-51Z" fill="url(#gold)" transform="translate(-15 -14) scale(.92)"/>
+  <path d="m61 173 44-50 8 22-39 44-13-16Z" fill="#080808" stroke="url(#shine)" stroke-width="5" stroke-linejoin="round"/>
+  <path d="m95 139 20 7-9 13-16-5 5-15Z" fill="url(#shine)"/>
+</svg>
